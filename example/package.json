@@ -1,0 +1,27 @@
+{
+  "name": "example",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-cli serve --mode development"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1",
+    "webpack-fsr-plugin": "workspace:^"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.5.7",
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "html-webpack-plugin": "^5.6.0",
+    "swc-loader": "^0.2.6",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
